@@ -62,13 +62,13 @@ Please notice that we are using in this project the cropped Open API Java librar
 The application simulator has started and after sometime there was accumulated some numbers of data.  
 The result can be viewed on the Monitis dashboard of user:
 
-![Couldn't access picture](/home/shunanya/Pictures/Selection_017.png "Graphical representation of monitored log data.")  
+[Couldn't access picture](./log_simulator/test/default.png "Default representation of monitored log data.")  
 The default view of monitored data.
 
-![Couldn't access picture](/home/shunanya/Pictures/Selection_018.png "Graphical representation of monitored log data.")  
+![Couldn't access picture](./log_simulator/test/detailed.png "Detailed representation of monitored log data.")  
 Double-clicking on any line will show the detailed log records.
 
-![Couldn't access picture](/home/shunanya/Pictures/Selection_016.png "Graphical representation of monitored log data.")  
+![Couldn't access picture](./log_simulator/test/graph.png "Graphical representation of monitored log data.")  
 The Graphical representation of monitored data can be shown by switching to the corresponding view.  
 
 
