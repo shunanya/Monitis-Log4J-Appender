@@ -59,17 +59,18 @@ Please notice that we are using in this project the cropped Open API Java librar
 
 ##### Testing and results #####
 
-The application simulator has started and after sometime there was accumulated some numbers of data.  
-The result can be viewed on the Monitis dashboard of user:
+The application simulator has been started and after sometime there was accumulated some numbers of data.  
+The result can be viewed on the Monitis dashboard of user.  
+To do so, user should login to Monitis his account and add a new custom monitor into dashboard.  
 
 
-The default view of monitored data [Click to access picture](https://github.com/shunanya/Monitis-Log4J-Appender/tree/master/log_simulator/test/default.png "Default representation of monitored log data.") .  
+You can see the default view of monitored data [Click to access picture](https://github.com/shunanya/Monitis-Log4J-Appender/tree/master/log_simulator/test/default.png "Default representation of monitored log data.") .  
 
 
-Double-clicking on any line will show the detailed log records [Click to access picture](https://github.com/shunanya/Monitis-Log4J-Appender/tree/master/log_simulator/test/detailed.png "Detailed representation of monitored log data.") .  
+By double-clicking on any line of default view you will see the detailed log records [Click to access picture](https://github.com/shunanya/Monitis-Log4J-Appender/tree/master/log_simulator/test/detailed.png "Detailed representation of monitored log data.") .  
 
 
-The Graphical representation of monitored data can be shown by switching to the corresponding view [Click to access picture](https://github.com/shunanya/Monitis-Log4J-Appender/tree/master/log_simulator/test/graph.png "Graphical representation of monitored log data.").  
+Also the Graphical representation of monitored data can be shown by switching to the corresponding view [Click to access picture](https://github.com/shunanya/Monitis-Log4J-Appender/tree/master/log_simulator/test/graph.png "Graphical representation of monitored log data.").  
 
 
 
