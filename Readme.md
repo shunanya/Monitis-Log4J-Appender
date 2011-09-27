@@ -62,14 +62,14 @@ Please notice that we are using in this project the cropped Open API Java librar
 The application simulator has started and after sometime there was accumulated some numbers of data.  
 The result can be viewed on the Monitis dashboard of user:
 
-[Couldn't access picture](https://github.com/shunanya/Monitis-Log4J-Appender/tree/master/log_simulator/test/default.png "Default representation of monitored log data.")  
-The default view of monitored data.
 
-![Couldn't access picture](./Monitis-Log4J-Appender/log_simulator/test/detailed.png "Detailed representation of monitored log data.")  
-Double-clicking on any line will show the detailed log records.
+The default view of monitored data [Click to access picture](https://github.com/shunanya/Monitis-Log4J-Appender/tree/master/log_simulator/test/default.png "Default representation of monitored log data.") .  
 
-![Couldn't access picture](./Monitis-Log4J-Appender/log_simulator/test/graph.png "Graphical representation of monitored log data.")  
-The Graphical representation of monitored data can be shown by switching to the corresponding view.  
+
+Double-clicking on any line will show the detailed log records [Click to access detailed picture](https://github.com/shunanya/Monitis-Log4J-Appender/log_simulator/test/detailed.png "Detailed representation of monitored log data.") .  
+
+
+The Graphical representation of monitored data can be shown by switching to the corresponding view [Click to access graph picture](https://github.com/shunanya/Monitis-Log4J-Appender/log_simulator/test/graph.png "Graphical representation of monitored log data.").  
 
 
 
