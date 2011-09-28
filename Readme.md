@@ -1,12 +1,12 @@
 ## The Monitis Log4J Appender ##
 
-The MonitisAppender represents the Java implementation of a Log4j appender which allows to send selectively log records from any Java application (that uses Log4J) into Monitis via the Monitis open API.  This project uses the  possibility of Log4j extension to provide a simple solution for users whose only alternative is to implement a polling function against against the output of a standard Log4j appender.  
+The MonitisAppender represents the Java implementation of a Log4j appender which allows to send selectively log records from any Java application (that uses Log4J) into Monitis via the Monitis open API.  This project uses the Log4j extension possibility and the Monitis custom monitor approach to provide a simple solution for users whose only alternative is to implement a polling function against the output of a standard Log4j appender.  
 
 Requirements for monitored application is the following:
 
   - Aplication should use Log4J logging library
   - log_mon.jar have to be included in addition into the list of Aplication libraries
-  - Log4J configuration should have XML format and be extended to specify settings for Monitis Appender:
+  - Log4J configuration should have XML format and be extended to specify settings for Monitis Appender e.g. like depicted below:
  
         <appender name="monitisAppender" class="org.monitis.logmonitor.logger.MonitisAppender">
                 <param name="monitisApiKey" value="2PE0HVI4DHP34JACKCAE37IOD4" />
@@ -49,18 +49,28 @@ where:
             src                  Folder that contain the source codes for MonitisAppender  
 
         log_simulator            The monitored application simulator (sample - used for testing purpose only)
+            distr
+              simulator_lib      folder that contain monitored application libraries
+                 log_mon.jar     Compiled MonitisAppender file
+                 log4j.jar       log-engine
+              simulator.jar      Compiled simulator application
+              log4j.xml          log-engine configuration
             lib
               log4j.jar          
               log_mon.jar        Compiled MonitisAppender file
             src                  Folder that contain the source codes for sample application
             log4j.xml            Configuration for Log4j log-engine  
 
-Please notice that we are using in this project the cropped Open API Java library (custom monitor strongly needed functionality have been kept only)  
+Please notice that we are using in this project the cropped Open API Java library - m_api.jar (custom monitor strongly needed functionality have been kept only)  
 
 ##### Testing and results #####
 
-The application simulator has been started and after sometime there was accumulated some numbers of data.  
-The result can be viewed on the Monitis dashboard of user.  
+The application simulator has been started (example is depicted below)  
+
+        ~$ cd /home/worksp_api/log_simulator/distr
+        ~/worksp_api/log_simulator/distr$ java -jar simulator.jar
+
+After sometime there was accumulated some numbers of data so the results can be viewed on the Monitis dashboard of user.  
 To do so, user should login to Monitis his account and add a new custom monitor into dashboard.  
 
 
